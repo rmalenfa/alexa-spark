@@ -2,13 +2,13 @@ from __future__ import print_function
 import alexaActions
 import sparkApi
 
-applicationId = "APP ID"
-spark_AccessToken = "SPARK ACCESS TOKEN"
-twilio_AccountSid = "TWILIO ACCOUNT SID"
-twilio_AuthToken  = "TWILIO AUTH TOKEN"
-cellPhoneE164 = "YOUR CELLPHONE NUMBER"
-twilioNumber = "YOUR ASSIGNED TWILIO NUMBER"
-twilioXmlPath = "TwiML URL PATH"
+applicationId = "amzn1.echo-sdk-ams.app.cf7e339a-8a2d-4718-bbeb-7edf29310de8"
+spark_AccessToken = "ODlhNzQyMDktMzBhZC00YTc1LWFiYzctM2JmZjgzYWI1N2M4YWJlMTA3NWMtZThi"
+twilio_AccountSid = "AC0574fa4e9a0309a118d4ea8188b33609"
+twilio_AuthToken  = "97a05a19bf7bd7d36527db244c8ea42b"
+cellPhoneE164 = "+1 203-240-1513"
+twilioNumber = "+1 929-249-5009"
+twilioXmlPath = "https://demo.twilio.com/welcome/voice/"
 
 def lambda_handler(event, context):
     """ Route the incoming request based on type (LaunchRequest, IntentRequest,
